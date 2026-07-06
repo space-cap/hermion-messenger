@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "kiwoom-rest-trade",
+    "sqlalchemy>=2.0.51",
 ]
 
 [tool.uv.sources]
