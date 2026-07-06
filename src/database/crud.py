@@ -3,7 +3,7 @@ from datetime import datetime
 from typing import List, Dict, Any, Optional
 from sqlalchemy.orm import Session
 
-from src.database.models import Subscriber, MarketDataSnapshot, SentBriefing
+from .models import Subscriber, MarketDataSnapshot, SentBriefing
 
 # ==============================================================================
 # 1. 구독자 (Subscriber) CRUD 함수

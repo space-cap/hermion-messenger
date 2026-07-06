@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.116.0",
     "kiwoom-rest-trade",
+    "markdown>=3.10.2",
     "sqlalchemy>=2.0.51",
 ]
 
