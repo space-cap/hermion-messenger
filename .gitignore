@@ -1,2 +1,26 @@
 # Obsidian
 docs/.obsidian/
+
+# Python & Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets & Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Local Database & Logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
