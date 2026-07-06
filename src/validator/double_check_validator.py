@@ -5,7 +5,7 @@ class DoubleCheckValidator:
     """LLM이 생성한 브리핑 본문 내 숫자가 원본 금융 데이터셋과 일치하는지 검증하는 검증 엔진"""
     
     # 무시할 공통 수치 (연도, 마크다운 순서 번호, 일반 백분율 등 오탐 방지용)
-    IGNORE_NUMBERS = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2026, 100}
+    IGNORE_NUMBERS = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 500, 2026}
     
     @staticmethod
     def extract_numbers_from_text(text: str) -> List[str]:
