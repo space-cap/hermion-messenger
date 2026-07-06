@@ -1,0 +1,12 @@
+[project]
+name = "hermion-messenger"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "kiwoom-rest-trade",
+]
+
+[tool.uv.sources]
+kiwoom-rest-trade = { path = "../kiwoom-rest-trade", editable = true }
